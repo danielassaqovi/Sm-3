@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Form Lengkap</title>
+  </head>
+  <body>
+    <form method="POST" action="gambar.html">
+      <h4>FORM</h4>
+
+      <!-- Input teks nama -->
+      <label>Nama:</label><br />
+      <input type="text" name="var1" size="30" value="Enter your name here." />
+      <br /><br />
+
+      <!-- Input teks alamat -->
+      <label>Alamat:</label><br />
+      <input
+        type="text"
+        name="var2"
+        size="50"
+        value="Enter your address here."
+      />
+      <br /><br />
+
+      <!-- Checkbox: Are you a student -->
+      <b>Are you a student?</b><br />
+      <input type="checkbox" name="var3" /> Yes <br /><br />
+
+      <!-- Radio Button: Usia -->
+      <b>How old are you?</b><br />
+      <input type="radio" name="var4" value="r1" />10 - 15 <br />
+      <input type="radio" name="var4" value="r2" />16 - 20 <br />
+      <input type="radio" name="var4" value="r3" />21 - 25 <br /><br />
+
+      <!-- Checkbox tambahan: kendaraan -->
+      <b>Which one do you have?</b><br /><br />
+      <input type="checkbox" name="vehicle1" value="Bike" checked /> I have a
+      bike<br />
+      <input type="checkbox" name="vehicle2" value="Car" /> I have a car<br />
+      <input type="checkbox" name="vehicle3" value="Boat" /> I have a boat<br /><br />
+
+      <!-- Dropdown: Asal -->
+      <b>Where are you from?</b><br />
+      <select name="var6" size="2">
+        <option value="BG">Bulgaria</option>
+        <option value="UK">United Kingdom</option>
+        <option value="USA" selected>USA</option>
+        <option value="ID">Indonesia</option>
+      </select>
+      <br /><br />
+
+      <!-- Input password -->
+      <label>Password:</label><br />
+      <input type="password" name="varPassword" size="30" />
+      <br /><br />
+
+      <!-- Textarea untuk komentar -->
+      <label>Komentar:</label><br />
+      <textarea
+        name="varKomentar"
+        rows="5"
+        cols="50"
+        placeholder="Tulis komentar Anda di sini..."
+      ></textarea>
+      <br /><br />
+
+      <!-- Tombol -->
+      <input type="submit" name="var5" value="Send" />
+      <input type="reset" name="var7" value="Clear" />
+    </form>
+  </body>
+</html>
